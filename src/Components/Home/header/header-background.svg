@@ -1,0 +1,23 @@
+<svg viewBox="0 0 411 378" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+<filter id="inset-shadow">
+    <feOffset dx="0" dy="-20"/>                                                         <!-- Shadow Offset -->
+    <feGaussianBlur stdDeviation="10"  result="offset-blur"/>                           <!-- Shadow Blur -->
+    <feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"/> <!-- Invert the drop shadow to create an inner shadow -->
+    <feFlood flood-color="black" flood-opacity="0.75" result="color"/>                     <!-- Color & Opacity -->
+    <feComposite operator="in" in="color" in2="inverse" result="shadow"/>               <!-- Clip color inside shadow -->
+    <feComponentTransfer in="shadow" result="shadow">                                   <!-- Shadow Opacity -->
+        <feFuncA type="linear" slope="1"/>
+    </feComponentTransfer>
+    <feComposite operator="over" in="shadow" in2="SourceGraphic"/>                    <!-- Put shadow over original object -->
+</filter>  
+
+<defs>
+<linearGradient id="paint0_linear" x1="-13" y1="11.1078" x2="458.427" y2="199.263" gradientUnits="userSpaceOnUse">
+<stop stop-color="#22577A"/>
+<stop offset="1" stop-color="#38A3A5"/>
+</linearGradient>
+</defs>
+
+
+<path d="M-3 377.951V0H416V377.951C416 377.951 367.778 365.407 335.852 364.082C293.801 362.336 271.411 379.014 229.327 377.951C181.623 376.747 158.35 353.269 110.627 353.679C64.8258 354.073 -3 377.951 -3 377.951Z" fill="url(#paint0_linear)" filter="url(#inset-shadow)"/>
+</svg>

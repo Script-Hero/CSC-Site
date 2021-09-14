@@ -1,0 +1,14 @@
+#goMobileContainer{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+#goMobileText{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size:64px;
+}
