@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/csc-site/static/css/main.130bd085.chunk.css",
+    "main.js": "/csc-site/static/js/main.03f9c069.chunk.js",
+    "main.js.map": "/csc-site/static/js/main.03f9c069.chunk.js.map",
+    "runtime-main.js": "/csc-site/static/js/runtime-main.0e7b46ab.js",
+    "runtime-main.js.map": "/csc-site/static/js/runtime-main.0e7b46ab.js.map",
+    "static/js/2.55aaff9d.chunk.js": "/csc-site/static/js/2.55aaff9d.chunk.js",
+    "static/js/2.55aaff9d.chunk.js.map": "/csc-site/static/js/2.55aaff9d.chunk.js.map",
+    "static/js/3.274e175d.chunk.js": "/csc-site/static/js/3.274e175d.chunk.js",
+    "static/js/3.274e175d.chunk.js.map": "/csc-site/static/js/3.274e175d.chunk.js.map",
+    "index.html": "/csc-site/index.html",
+    "static/css/main.130bd085.chunk.css.map": "/csc-site/static/css/main.130bd085.chunk.css.map",
+    "static/js/2.55aaff9d.chunk.js.LICENSE.txt": "/csc-site/static/js/2.55aaff9d.chunk.js.LICENSE.txt",
+    "static/media/arrow.af44352b.svg": "/csc-site/static/media/arrow.af44352b.svg",
+    "static/media/header-background.ee974860.svg": "/csc-site/static/media/header-background.ee974860.svg",
+    "static/media/remind-logo.c70acf9b.svg": "/csc-site/static/media/remind-logo.c70acf9b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e7b46ab.js",
+    "static/js/2.55aaff9d.chunk.js",
+    "static/css/main.130bd085.chunk.css",
+    "static/js/main.03f9c069.chunk.js"
+  ]
+}
