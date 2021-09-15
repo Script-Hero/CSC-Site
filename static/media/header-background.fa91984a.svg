@@ -1,6 +1,6 @@
 <svg viewBox="0 0 411 378" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
 <filter id="inset-shadow">
-    <feOffset dx="0" dy="-20"/>                                                         <!-- Shadow Offset -->
+    <feOffset dx="0" dy="-35"/>                                                         <!-- Shadow Offset -->
     <feGaussianBlur stdDeviation="10"  result="offset-blur"/>                           <!-- Shadow Blur -->
     <feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"/> <!-- Invert the drop shadow to create an inner shadow -->
     <feFlood flood-color="black" flood-opacity="0.75" result="color"/>                     <!-- Color & Opacity -->
