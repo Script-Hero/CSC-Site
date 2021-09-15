@@ -12,25 +12,25 @@ export default class Carousel extends React.Component {
       {
         title: "Compete",
         body: "The computer science club participates in many coding contests throughout the year, and we host our own Hackathon at Stratford. Prepare with the club, find teammates at the club, and win with the club.",
-        color: "#23049D",
+        color: "#39375B",
         class_: "card-1",
       },
       {
         title: "Volunteer",
         body: "The computer science club gives members access to many volunteering opportunities. Participate in LetsCode, an entirely student ran coding camp, or join us in teaching at FamilyPoint, or get involved in the CS community by helping the club host our annual Hackathon!",
-        color: "#5e177a",
+        color: "#553C8B",
         class_: "card-2",
       },
       {
         title: "Tutor",
         body: "Need to improve in your CS classes? Get tutoring from students in the club! Want to give back? Come tutor for the club! The CS club is dedicated to being a space where everyone can get better at coding.",
-        color: "#3F0071",
+        color: "#5D6EC7",
         class_: "card-3",
       },
       {
         title: "Collaborate",
         body: "Coding is better together. Find friends to work on projects together or experts in CS fields you want to learn at the CS club. The coding club helps set up teams for personal projects, coding contests, and even larger club-wide programs.",
-        color: "#4b049d",
+        color: "#6155A6",
         class_: "card-4",
       },
     ];

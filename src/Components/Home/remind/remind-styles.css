@@ -28,7 +28,7 @@
     margin-right:auto;
     height:25%;
     width: 65%;
-    margin-top: 10%;
+    margin-top: 8%;
     background-color: #2a64c7;
     display:flex;
     align-items: center;
@@ -45,14 +45,14 @@
 
 @keyframes bounce {
     from {
-        transform: translateY(0)
+        transform: translateY(0) scale(1)
     }
 
     50% {
-        transform: translateY(5%)
+        transform: translateY(5%) scale(1.05)
     }
 
     to {
-        transform: translateY(0);
+        transform: translateY(0) scale(1)
     }
 }
