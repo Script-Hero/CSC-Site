@@ -15,7 +15,7 @@ export default class Remind extends React.Component {
               <img src={remindLogo} />
           </div>
           <div id="remind-text-container">
-            <p id="remind-text">Click to Join Our Remind</p>
+            <p id="remind-text">Join Our Remind</p>
           </div>
       </div>
     );
