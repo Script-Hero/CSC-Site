@@ -1,6 +1,6 @@
 {
   "name": "csc-site",
-  "homepage": "https://script-hero.github.io/CSC-Site/",
+  "homepage": "https://script-hero.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
